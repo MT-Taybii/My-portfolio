@@ -204,7 +204,9 @@ label.nav-burger {
     line-height: var(--line-height-tight);
     letter-spacing: var(--letter-spacing-tight);
 }
-
+.MT-Taybii-name span{
+        color: var(--color-accent);
+    }
 .MT-Taybii-img {
     width: clamp(150px, 20vw, 220px);
     aspect-ratio: 1;
@@ -290,6 +292,9 @@ label.nav-burger {
 
     .MT-Taybii-name {
         font-size: clamp(2.7rem, 11vw, 4.5rem);
+    }
+    .MT-Taybii-name span{
+        color: var(--color-accent);
     }
 
     .MT-Taybii-img {
